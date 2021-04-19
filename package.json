@@ -1,0 +1,18 @@
+{
+  "name": "application_healthcheck",
+  "version": "0.1.0",
+  "description": "check servers running",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js -p 8080",
+    "dev": "nodemon index.js"
+  },
+  "author": "danial omidi {https://github.com/clrcode}",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "kavenegar": "^1.1.4"
+  }
+}
